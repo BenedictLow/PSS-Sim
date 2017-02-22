@@ -1,11 +1,11 @@
 # Unity generated and a few customs #
 # ================================= #
-Temp/*
-Library/*
-Build/*
-Obj/*
-WebBuild/*
-WindowsBuild/*
+Temp/
+Library/
+Build/
+Obj/
+WebBuild/
+WindowsBuild/
 *.meta
 
 # ===================================== #
