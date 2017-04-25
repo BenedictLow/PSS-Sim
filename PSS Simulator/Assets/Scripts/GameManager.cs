@@ -4,9 +4,8 @@ using UnityEngine;
 
 //used to manage the highscores and maybe spawning of enemies in the future
 public class GameManager : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
