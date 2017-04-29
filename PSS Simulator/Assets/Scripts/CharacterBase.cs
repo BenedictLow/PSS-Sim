@@ -24,6 +24,10 @@ public class CharacterBase : MonoBehaviour {
     //Extra stats
     public float _StateOfMind;//Will be the deciding factor to toggle Normal/Rage/Break mode
 
+    private float _Attack;
+    
+    private float _MAttack;    
+
     //In short, the target and power of the spell are determined by the Magician's mind whereas the nature of the spell is determined by the Activation Sequence.
 
     // Use this for initialization
@@ -39,5 +43,15 @@ public class CharacterBase : MonoBehaviour {
     void Death()
     {
         Debug.Log(_Name + " has died.");
+    }
+
+    void AddToAttack(float _AddAttack)
+    {
+        _Attack += _AddAttack;
+    }
+
+    void AddToMAttack(float _AddMAttack)
+    {
+        _MAttack += _AddMAttack;
     }
 }

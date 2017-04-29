@@ -17,9 +17,35 @@ public class PlayableCharacter : CharacterBase {
     }
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Update ()
+    {
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+            Debug.Log("NumPad 1");
+
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+            Debug.Log("Num Pad 2");
+
+        if (Input.GetKeyDown(KeyCode.Keypad3))
+            Debug.Log("Num Pad 3");
+
+        if (Input.GetKeyDown(KeyCode.Keypad4))
+            Debug.Log("Num Pad 4");
+
+        if (Input.GetKeyDown(KeyCode.Keypad5))
+            Debug.Log("Num Pad 5");
+
+        if (Input.GetKeyDown(KeyCode.Keypad6))
+            Debug.Log("Num Pad 6");
+
+        if (Input.GetKeyDown(KeyCode.Keypad7))
+            Debug.Log("Num Pad 7");
+
+        if (Input.GetKeyDown(KeyCode.Keypad8))
+            Debug.Log("Num Pad 8");
+
+        if (Input.GetKeyDown(KeyCode.Keypad9))
+            Debug.Log("Num Pad 9");
+    }
 
     void AddToCharaStats(EquipmentBase _Equips)
     {
@@ -65,5 +91,35 @@ public class PlayableCharacter : CharacterBase {
             AddToCharaStats(_LegEquip);
         else
             Debug.Log("Null Leg");
+    }
+
+    void NumPadInputs()
+    {
+        if (Input.GetKeyDown(KeyCode.Keypad1))
+            Debug.Log("NumPad 1");
+
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+            Debug.Log("Num Pad 2");
+
+        if (Input.GetKeyDown(KeyCode.Keypad3))
+            Debug.Log("Num Pad 3");
+
+        if (Input.GetKeyDown(KeyCode.Keypad4))
+            Debug.Log("Num Pad 4");
+
+        if (Input.GetKeyDown(KeyCode.Keypad5))
+            Debug.Log("Num Pad 5");
+
+        if (Input.GetKeyDown(KeyCode.Keypad6))
+            Debug.Log("Num Pad 6");
+
+        if (Input.GetKeyDown(KeyCode.Keypad7))
+            Debug.Log("Num Pad 7");
+
+        if (Input.GetKeyDown(KeyCode.Keypad7))
+            Debug.Log("Num Pad 8");
+
+        if (Input.GetKeyDown(KeyCode.Keypad9))
+            Debug.Log("Num Pad 9");
     }
 }
